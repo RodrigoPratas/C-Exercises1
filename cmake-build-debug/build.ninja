@@ -41,35 +41,66 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /home/rodrigo/repos/C-Exercises1/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target C-vowels
+# Object build statements for EXECUTABLE target C-successivesum
 
 
 #############################################
-# Order-only phony target for C-vowels
+# Order-only phony target for C-successivesum
 
-build cmake_object_order_depends_target_C-vowels: phony || CMakeFiles/C-vowels.dir
+build cmake_object_order_depends_target_C-successivesum: phony || CMakeFiles/C-successivesum.dir
 
-build CMakeFiles/C-vowels.dir/vowels.c.o: C_COMPILER__C-vowels_Debug /home/rodrigo/repos/C-Exercises1/vowels.c || cmake_object_order_depends_target_C-vowels
-  DEP_FILE = CMakeFiles/C-vowels.dir/vowels.c.o.d
+build CMakeFiles/C-successivesum.dir/successivesum.c.o: C_COMPILER__C-successivesum_Debug /home/rodrigo/repos/C-Exercises1/successivesum.c || cmake_object_order_depends_target_C-successivesum
+  DEP_FILE = CMakeFiles/C-successivesum.dir/successivesum.c.o.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/C-vowels.dir
-  OBJECT_FILE_DIR = CMakeFiles/C-vowels.dir
+  OBJECT_DIR = CMakeFiles/C-successivesum.dir
+  OBJECT_FILE_DIR = CMakeFiles/C-successivesum.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target C-vowels
+# Link build statements for EXECUTABLE target C-successivesum
 
 
 #############################################
-# Link the executable C-vowels
+# Link the executable C-successivesum
 
-build C-vowels: C_EXECUTABLE_LINKER__C-vowels_Debug CMakeFiles/C-vowels.dir/vowels.c.o
+build C-successivesum: C_EXECUTABLE_LINKER__C-successivesum_Debug CMakeFiles/C-successivesum.dir/successivesum.c.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/C-vowels.dir
+  OBJECT_DIR = CMakeFiles/C-successivesum.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = C-vowels
-  TARGET_PDB = C-vowels.dbg
+  TARGET_FILE = C-successivesum
+  TARGET_PDB = C-successivesum.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target C_vowelscount
+
+
+#############################################
+# Order-only phony target for C_vowelscount
+
+build cmake_object_order_depends_target_C_vowelscount: phony || CMakeFiles/C_vowelscount.dir
+
+build CMakeFiles/C_vowelscount.dir/vowelscount.c.o: C_COMPILER__C_vowelscount_Debug /home/rodrigo/repos/C-Exercises1/vowelscount.c || cmake_object_order_depends_target_C_vowelscount
+  DEP_FILE = CMakeFiles/C_vowelscount.dir/vowelscount.c.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/C_vowelscount.dir
+  OBJECT_FILE_DIR = CMakeFiles/C_vowelscount.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target C_vowelscount
+
+
+#############################################
+# Link the executable C_vowelscount
+
+build C_vowelscount: C_EXECUTABLE_LINKER__C_vowelscount_Debug CMakeFiles/C_vowelscount.dir/vowelscount.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/C_vowelscount.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = C_vowelscount
+  TARGET_PDB = C_vowelscount.dbg
 
 
 #############################################
@@ -105,7 +136,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/rodrigo/repos/C-Exercises1/cmake-build-debug
 
-build all: phony C-vowels
+build all: phony C-successivesum C_vowelscount
 
 # =============================================================================
 # Built-in targets

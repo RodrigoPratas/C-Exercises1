@@ -1,3 +1,8 @@
 # ninja log v5
-0	21	1676315933415877000	CMakeFiles/C-vowels.dir/vowels.c.o	c7fff6b041ab4f0
-21	90	1676315933485877000	C-vowels	d75c5cacd4b3966d
+0	23	1676323782135877000	CMakeFiles/C-successivesum.dir/successivesum.c.o	2a8fcb0e8feab631
+22	95	1676323870915877000	C_vowelscount	4fb21b8b4e6bfd76
+0	20	1676323961285877000	build.ninja	2e3c5159e1177fcb
+23	116	1676321755025877000	C-vowels	d75c5cacd4b3966d
+24	97	1676323782205877000	C-successivesum	94ca8c6a5c256207
+0	22	1676323870835877000	CMakeFiles/C_vowelscount.dir/vowelscount.c.o	d53aa4f6d55286f5
+0	23	1676321754935877000	CMakeFiles/C-vowels.dir/vowels.c.o	c7fff6b041ab4f0
