@@ -164,6 +164,37 @@ build C-friendvalues: C_EXECUTABLE_LINKER__C-friendvalues_Debug CMakeFiles/C-fri
   TARGET_FILE = C-friendvalues
   TARGET_PDB = C-friendvalues.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target C-leastCommonMultiple
+
+
+#############################################
+# Order-only phony target for C-leastCommonMultiple
+
+build cmake_object_order_depends_target_C-leastCommonMultiple: phony || CMakeFiles/C-leastCommonMultiple.dir
+
+build CMakeFiles/C-leastCommonMultiple.dir/leastCommonMultiple.c.o: C_COMPILER__C-leastCommonMultiple_Debug /home/rodrigo/repos/C-Exercises1/leastCommonMultiple.c || cmake_object_order_depends_target_C-leastCommonMultiple
+  DEP_FILE = CMakeFiles/C-leastCommonMultiple.dir/leastCommonMultiple.c.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/C-leastCommonMultiple.dir
+  OBJECT_FILE_DIR = CMakeFiles/C-leastCommonMultiple.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target C-leastCommonMultiple
+
+
+#############################################
+# Link the executable C-leastCommonMultiple
+
+build C-leastCommonMultiple: C_EXECUTABLE_LINKER__C-leastCommonMultiple_Debug CMakeFiles/C-leastCommonMultiple.dir/leastCommonMultiple.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/C-leastCommonMultiple.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = C-leastCommonMultiple
+  TARGET_PDB = C-leastCommonMultiple.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -198,7 +229,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/rodrigo/repos/C-Exercises1/cmake-build-debug
 
-build all: phony C-successivesum C-vowelscount C-russiansum C-friendvalues
+build all: phony C-successivesum C-vowelscount C-russiansum C-friendvalues C-leastCommonMultiple
 
 # =============================================================================
 # Built-in targets

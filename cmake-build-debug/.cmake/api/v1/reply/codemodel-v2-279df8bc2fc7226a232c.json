@@ -18,7 +18,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -36,7 +37,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -47,6 +49,13 @@
 					"id" : "C-friendvalues::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-C-friendvalues-Debug-bf7afe715a7db00196c7.json",
 					"name" : "C-friendvalues",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "C-leastCommonMultiple::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C-leastCommonMultiple-Debug-0367eb226a8146e5cb20.json",
+					"name" : "C-leastCommonMultiple",
 					"projectIndex" : 0
 				},
 				{

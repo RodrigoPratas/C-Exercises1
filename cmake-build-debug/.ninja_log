@@ -1,16 +1,12 @@
 # ninja log v5
 0	23	1676323782135877000	CMakeFiles/C-successivesum.dir/successivesum.c.o	2a8fcb0e8feab631
-0	17	1676329352245877000	CMakeFiles/C-russiansum.dir/russiansum.c.o	bef8734aca6f334a
+0	17	1676331156765877000	CMakeFiles/C-russiansum.dir/russiansum.c.o	bef8734aca6f334a
 22	95	1676323870915877000	C_vowelscount	4fb21b8b4e6bfd76
-0	20	1676329558805877000	build.ninja	2e3c5159e1177fcb
+0	20	1676391124607068400	build.ninja	2e3c5159e1177fcb
+181	331	1676337641195596300	C-friendvalues	b4a622fb889a9f0f
+0	181	1676337641045596300	CMakeFiles/C-friendvalues.dir/friendvalues.c.o	48bf6c35195a4ad
 23	116	1676321755025877000	C-vowels	d75c5cacd4b3966d
 24	97	1676323782205877000	C-successivesum	94ca8c6a5c256207
 0	22	1676323870835877000	CMakeFiles/C_vowelscount.dir/vowelscount.c.o	d53aa4f6d55286f5
-17	92	1676329352315877000	C-russiansum	8e51c587902a74df
-0	23	1676321754935877000	CMakeFiles/C-vowels.dir/vowels.c.o	c7fff6b041ab4f0
-0	17	1676331156765877000	CMakeFiles/C-russiansum.dir/russiansum.c.o	bef8734aca6f334a
 18	84	1676331156835877000	C-russiansum	8e51c587902a74df
-0	26	1676331189655877000	CMakeFiles/C-friendvalues.dir/friendvalues.c.o	48bf6c35195a4ad
-26	105	1676331189735877000	C-friendvalues	b4a622fb889a9f0f
-0	28	1676331262505877000	CMakeFiles/C-friendvalues.dir/friendvalues.c.o	48bf6c35195a4ad
-28	125	1676331262595877000	C-friendvalues	b4a622fb889a9f0f
+0	23	1676321754935877000	CMakeFiles/C-vowels.dir/vowels.c.o	c7fff6b041ab4f0
