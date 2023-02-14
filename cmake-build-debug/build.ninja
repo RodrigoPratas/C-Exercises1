@@ -195,6 +195,37 @@ build C-leastCommonMultiple: C_EXECUTABLE_LINKER__C-leastCommonMultiple_Debug CM
   TARGET_FILE = C-leastCommonMultiple
   TARGET_PDB = C-leastCommonMultiple.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target C-primeNumber
+
+
+#############################################
+# Order-only phony target for C-primeNumber
+
+build cmake_object_order_depends_target_C-primeNumber: phony || CMakeFiles/C-primeNumber.dir
+
+build CMakeFiles/C-primeNumber.dir/primeNumber.c.o: C_COMPILER__C-primeNumber_Debug /home/rodrigo/repos/C-Exercises1/primeNumber.c || cmake_object_order_depends_target_C-primeNumber
+  DEP_FILE = CMakeFiles/C-primeNumber.dir/primeNumber.c.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/C-primeNumber.dir
+  OBJECT_FILE_DIR = CMakeFiles/C-primeNumber.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target C-primeNumber
+
+
+#############################################
+# Link the executable C-primeNumber
+
+build C-primeNumber: C_EXECUTABLE_LINKER__C-primeNumber_Debug CMakeFiles/C-primeNumber.dir/primeNumber.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/C-primeNumber.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = C-primeNumber
+  TARGET_PDB = C-primeNumber.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -229,7 +260,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/rodrigo/repos/C-Exercises1/cmake-build-debug
 
-build all: phony C-successivesum C-vowelscount C-russiansum C-friendvalues C-leastCommonMultiple
+build all: phony C-successivesum C-vowelscount C-russiansum C-friendvalues C-leastCommonMultiple C-primeNumber
 
 # =============================================================================
 # Built-in targets
