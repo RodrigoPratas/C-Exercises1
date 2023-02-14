@@ -11,7 +11,7 @@
 
 int main(){
     int n;
-    bool v;
+    bool v=false;
     printf("Type the number that u want to check : ");
     scanf("%d",&n);
     if(n<0){
@@ -20,11 +20,14 @@ int main(){
     }
     for(int i = 2; i < n; i++){
         if(n % i == 0){
-        v = 0;
+        v = false;
+        printf("The value %d is not a prime number!!!", n);
+        return v;
         }
         else{
-        v = 1;
+        v = true;
+        printf("The value %d is a prime number!!!", n);
+        return v;
         }
     }
-
 }
