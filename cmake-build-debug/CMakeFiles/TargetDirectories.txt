@@ -1,4 +1,6 @@
 /home/rodrigo/repos/C-Exercises1/cmake-build-debug/CMakeFiles/C-successivesum.dir
-/home/rodrigo/repos/C-Exercises1/cmake-build-debug/CMakeFiles/C_vowelscount.dir
+/home/rodrigo/repos/C-Exercises1/cmake-build-debug/CMakeFiles/C-vowelscount.dir
+/home/rodrigo/repos/C-Exercises1/cmake-build-debug/CMakeFiles/C-russiansum.dir
+/home/rodrigo/repos/C-Exercises1/cmake-build-debug/CMakeFiles/C-friendvalues.dir
 /home/rodrigo/repos/C-Exercises1/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/rodrigo/repos/C-Exercises1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

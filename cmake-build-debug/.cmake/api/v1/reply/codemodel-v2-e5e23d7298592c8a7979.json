@@ -16,7 +16,9 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -32,12 +34,28 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "C-friendvalues::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C-friendvalues-Debug-bf7afe715a7db00196c7.json",
+					"name" : "C-friendvalues",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "C-russiansum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C-russiansum-Debug-f1ebe9c161ba0673ccb2.json",
+					"name" : "C-russiansum",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "C-successivesum::@6890427a1f51a3e7e1df",
@@ -47,9 +65,9 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "C_vowelscount::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-C_vowelscount-Debug-d628fc0e03b65777811c.json",
-					"name" : "C_vowelscount",
+					"id" : "C-vowelscount::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C-vowelscount-Debug-b360526f626e67ab4e79.json",
+					"name" : "C-vowelscount",
 					"projectIndex" : 0
 				}
 			]

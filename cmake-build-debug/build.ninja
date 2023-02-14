@@ -72,35 +72,97 @@ build C-successivesum: C_EXECUTABLE_LINKER__C-successivesum_Debug CMakeFiles/C-s
   TARGET_PDB = C-successivesum.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target C_vowelscount
+# Object build statements for EXECUTABLE target C-vowelscount
 
 
 #############################################
-# Order-only phony target for C_vowelscount
+# Order-only phony target for C-vowelscount
 
-build cmake_object_order_depends_target_C_vowelscount: phony || CMakeFiles/C_vowelscount.dir
+build cmake_object_order_depends_target_C-vowelscount: phony || CMakeFiles/C-vowelscount.dir
 
-build CMakeFiles/C_vowelscount.dir/vowelscount.c.o: C_COMPILER__C_vowelscount_Debug /home/rodrigo/repos/C-Exercises1/vowelscount.c || cmake_object_order_depends_target_C_vowelscount
-  DEP_FILE = CMakeFiles/C_vowelscount.dir/vowelscount.c.o.d
+build CMakeFiles/C-vowelscount.dir/vowelscount.c.o: C_COMPILER__C-vowelscount_Debug /home/rodrigo/repos/C-Exercises1/vowelscount.c || cmake_object_order_depends_target_C-vowelscount
+  DEP_FILE = CMakeFiles/C-vowelscount.dir/vowelscount.c.o.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/C_vowelscount.dir
-  OBJECT_FILE_DIR = CMakeFiles/C_vowelscount.dir
+  OBJECT_DIR = CMakeFiles/C-vowelscount.dir
+  OBJECT_FILE_DIR = CMakeFiles/C-vowelscount.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target C_vowelscount
+# Link build statements for EXECUTABLE target C-vowelscount
 
 
 #############################################
-# Link the executable C_vowelscount
+# Link the executable C-vowelscount
 
-build C_vowelscount: C_EXECUTABLE_LINKER__C_vowelscount_Debug CMakeFiles/C_vowelscount.dir/vowelscount.c.o
+build C-vowelscount: C_EXECUTABLE_LINKER__C-vowelscount_Debug CMakeFiles/C-vowelscount.dir/vowelscount.c.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/C_vowelscount.dir
+  OBJECT_DIR = CMakeFiles/C-vowelscount.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = C_vowelscount
-  TARGET_PDB = C_vowelscount.dbg
+  TARGET_FILE = C-vowelscount
+  TARGET_PDB = C-vowelscount.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target C-russiansum
+
+
+#############################################
+# Order-only phony target for C-russiansum
+
+build cmake_object_order_depends_target_C-russiansum: phony || CMakeFiles/C-russiansum.dir
+
+build CMakeFiles/C-russiansum.dir/russiansum.c.o: C_COMPILER__C-russiansum_Debug /home/rodrigo/repos/C-Exercises1/russiansum.c || cmake_object_order_depends_target_C-russiansum
+  DEP_FILE = CMakeFiles/C-russiansum.dir/russiansum.c.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/C-russiansum.dir
+  OBJECT_FILE_DIR = CMakeFiles/C-russiansum.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target C-russiansum
+
+
+#############################################
+# Link the executable C-russiansum
+
+build C-russiansum: C_EXECUTABLE_LINKER__C-russiansum_Debug CMakeFiles/C-russiansum.dir/russiansum.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/C-russiansum.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = C-russiansum
+  TARGET_PDB = C-russiansum.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target C-friendvalues
+
+
+#############################################
+# Order-only phony target for C-friendvalues
+
+build cmake_object_order_depends_target_C-friendvalues: phony || CMakeFiles/C-friendvalues.dir
+
+build CMakeFiles/C-friendvalues.dir/friendvalues.c.o: C_COMPILER__C-friendvalues_Debug /home/rodrigo/repos/C-Exercises1/friendvalues.c || cmake_object_order_depends_target_C-friendvalues
+  DEP_FILE = CMakeFiles/C-friendvalues.dir/friendvalues.c.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/C-friendvalues.dir
+  OBJECT_FILE_DIR = CMakeFiles/C-friendvalues.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target C-friendvalues
+
+
+#############################################
+# Link the executable C-friendvalues
+
+build C-friendvalues: C_EXECUTABLE_LINKER__C-friendvalues_Debug CMakeFiles/C-friendvalues.dir/friendvalues.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/C-friendvalues.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = C-friendvalues
+  TARGET_PDB = C-friendvalues.dbg
 
 
 #############################################
@@ -136,7 +198,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/rodrigo/repos/C-Exercises1/cmake-build-debug
 
-build all: phony C-successivesum C_vowelscount
+build all: phony C-successivesum C-vowelscount C-russiansum C-friendvalues
 
 # =============================================================================
 # Built-in targets
