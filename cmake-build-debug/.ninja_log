@@ -12,3 +12,7 @@
 0	22	1676323870835877000	CMakeFiles/C_vowelscount.dir/vowelscount.c.o	d53aa4f6d55286f5
 18	84	1676331156835877000	C-russiansum	8e51c587902a74df
 0	23	1676321754935877000	CMakeFiles/C-vowels.dir/vowels.c.o	c7fff6b041ab4f0
+0	223	1676406438357068400	CMakeFiles/C-leastCommonMultiple.dir/leastCommonMultiple.c.o	1ace07237e56999f
+223	326	1676406438457068400	C-leastCommonMultiple	d1ee06997aade2bc
+1	21	1676406453267068400	CMakeFiles/C-primeNumber.dir/primeNumber.c.o	27b1ba20be3cd9bd
+21	87	1676406453327068400	C-primeNumber	8b1c176bd3ee068f
