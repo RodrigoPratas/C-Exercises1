@@ -226,6 +226,37 @@ build C-primeNumber: C_EXECUTABLE_LINKER__C-primeNumber_Debug CMakeFiles/C-prime
   TARGET_FILE = C-primeNumber
   TARGET_PDB = C-primeNumber.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target C-primeTable
+
+
+#############################################
+# Order-only phony target for C-primeTable
+
+build cmake_object_order_depends_target_C-primeTable: phony || CMakeFiles/C-primeTable.dir
+
+build CMakeFiles/C-primeTable.dir/primeTable.c.o: C_COMPILER__C-primeTable_Debug /home/rodrigo/repos/C-Exercises1/primeTable.c || cmake_object_order_depends_target_C-primeTable
+  DEP_FILE = CMakeFiles/C-primeTable.dir/primeTable.c.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/C-primeTable.dir
+  OBJECT_FILE_DIR = CMakeFiles/C-primeTable.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target C-primeTable
+
+
+#############################################
+# Link the executable C-primeTable
+
+build C-primeTable: C_EXECUTABLE_LINKER__C-primeTable_Debug CMakeFiles/C-primeTable.dir/primeTable.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/C-primeTable.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = C-primeTable
+  TARGET_PDB = C-primeTable.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -260,7 +291,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/rodrigo/repos/C-Exercises1/cmake-build-debug
 
-build all: phony C-successivesum C-vowelscount C-russiansum C-friendvalues C-leastCommonMultiple C-primeNumber
+build all: phony C-successivesum C-vowelscount C-russiansum C-friendvalues C-leastCommonMultiple C-primeNumber C-primeTable
 
 # =============================================================================
 # Built-in targets
