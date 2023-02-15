@@ -17,6 +17,10 @@ int main(){
     ctn=0;
     printf("Type the amount of prime numbers u want the table to have : ");
     scanf("%d", &n);
+    if(n<=0){
+        printf("Invalid Number!!!");
+        return 0;
+    }
     for (int a= 2; a>0 ; a++) {
             for(int i = 2; i > 0 ; i++){
                 if(a % i == 0){
@@ -40,4 +44,5 @@ int main(){
                 }
             }
     }
+    return 0;
 }
