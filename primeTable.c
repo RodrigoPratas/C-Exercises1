@@ -8,32 +8,36 @@
 // 59 61 67 71 73 79 83 89 97 101 103 107 109 113 127 131
 
 #include "stdio.h"
+#include "stdbool.h"
 
 int main(){
     int n, ct, ctn;
+    bool p;
     ct=0;
     ctn=0;
     printf("Type the amount of prime numbers u want the table to have : ");
     scanf("%d", &n);
-    for (int a= 2; ; a++) {
+    for (int a= 2; a>0 ; a++) {
             for(int i = 2; i > 0 ; i++){
                 if(a % i == 0){
-                break;
-                }
-                else{
-                    ctn=ctn+1;
-                    ct=ct+1;
-                    printf(" %d",a);
-                    if(ct==16){
-                        printf("\n");
-                        ct=0;
-                    }
-                    if(ctn==n){
-                        return 0;
-                    }
+                    p=false;
                     break;
                 }
-
+                else{
+                    p=true;
+                }
+            }
+            if(p==true){
+                ctn=ctn+1;
+                ct=ct+1;
+                printf(" %d", a);
+                if(ct==16){
+                    printf("\n");
+                    ct=0;
+                }
+                if(ctn==n){
+                    return 0;
+                }
             }
     }
 }
