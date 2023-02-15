@@ -14,3 +14,15 @@
 0	22	1676323870835877000	CMakeFiles/C_vowelscount.dir/vowelscount.c.o	d53aa4f6d55286f5
 18	84	1676331156835877000	C-russiansum	8e51c587902a74df
 0	23	1676321754935877000	CMakeFiles/C-vowels.dir/vowels.c.o	c7fff6b041ab4f0
+0	109	1676471751054171500	CMakeFiles/C-primeTable.dir/primeTable.c.o	5fef2fbca4bfd399
+110	196	1676471751134171500	C-primeTable	20d92a34c93e9f6f
+0	37	1676471802014171500	CMakeFiles/C-primeTable.dir/primeTable.c.o	5fef2fbca4bfd399
+37	123	1676471802104171500	C-primeTable	20d92a34c93e9f6f
+0	24	1676471858234171500	CMakeFiles/C-primeTable.dir/primeTable.c.o	5fef2fbca4bfd399
+24	99	1676471858304171500	C-primeTable	20d92a34c93e9f6f
+0	18	1676471999644171500	CMakeFiles/C-primeTable.dir/primeTable.c.o	5fef2fbca4bfd399
+18	82	1676471999704171500	C-primeTable	20d92a34c93e9f6f
+0	18	1676472189664171500	CMakeFiles/C-primeTable.dir/primeTable.c.o	5fef2fbca4bfd399
+19	91	1676472189734171500	C-primeTable	20d92a34c93e9f6f
+0	20	1676472391184171500	CMakeFiles/C-primeNumber.dir/primeNumber.c.o	27b1ba20be3cd9bd
+20	93	1676472391254171500	C-primeNumber	8b1c176bd3ee068f

@@ -26,8 +26,10 @@ int main(){
         }
         else{
         v = true;
-        printf("The value %d is a prime number!!!", n);
-        return v;
         }
+    }
+    if(v==true){
+        printf("The value %d is a prime number!!! ", n);
+        return v;
     }
 }

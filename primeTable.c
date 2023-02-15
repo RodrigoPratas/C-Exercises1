@@ -10,6 +10,30 @@
 #include "stdio.h"
 
 int main(){
+    int n, ct, ctn;
+    ct=0;
+    ctn=0;
+    printf("Type the amount of prime numbers u want the table to have : ");
+    scanf("%d", &n);
+    for (int a= 2; ; a++) {
+            for(int i = 2; i > 0 ; i++){
+                if(a % i == 0){
+                break;
+                }
+                else{
+                    ctn=ctn+1;
+                    ct=ct+1;
+                    printf(" %d",a);
+                    if(ct==16){
+                        printf("\n");
+                        ct=0;
+                    }
+                    if(ctn==n){
+                        return 0;
+                    }
+                    break;
+                }
 
-
+            }
+    }
 }
